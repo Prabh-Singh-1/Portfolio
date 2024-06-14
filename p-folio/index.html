@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabhleen Singh Portfolio</title>
+</head>
+
+<body class="bg-black">
+    <header class="head-nav">
+        <nav class="flex  md:px-16 py-6 sm:px-8 px-4 justify-between items-center pstick" id="navbar">
+            <div class="logo text-white text-2xl leading-10 font-black">
+                Prabhleen Singh
+            </div>
+            <div class="menu-mobile lg:hidden flex gap-1" id="menu">
+                <img src="svg/menu.svg" alt="" id="menu-img" class="w-2">
+                <label for="menu-img" class="block lg:hidden text-base font-normal text-gray-400">MENU</label>
+            </div>
+            <ul class="nav hiddenn hidden lg:flex gap-14 justify-center items-center">
+                <li><a href="#" class="nav-opt active" >Home</a></li>
+                <li><a href="#" class="nav-opt" id="about">About</a></li>
+                <li><a href="#" class="nav-opt" >Resume</a></li>
+                <li><a href="#" class="nav-opt" >Contact</a></li>
+                <li><a href="#" class="nav-opt" >Hire me</a></li>
+            </ul>
+            <ul class="res-nav nav flex flex-col gap-3 justify-start items-start" id="res-nav">
+                <li><a href="" id="close"><img src="svg/close.svg" alt=""></a></li>
+                <li><a href="#" class="nav-opt active">Home</a></li>
+                <li><a href="#" class="nav-opt">About</a></li>
+                <li><a href="#" class="nav-opt">Resume</a></li>
+                <li><a href="#" class="nav-opt">Contact</a></li>
+                <li><a href="#" class="nav-opt">Hire me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-cont sm:flex sm:flex-row sm:pr-6 sm:pl-16 sm:pt-28 sm:pb-16 sm:gap-44 flex flex-wrap">
+            <div class="left flex flex-col gap-4 section" id="home">
+                <div class="text hiddenn ">
+                    <p class="p1-text font-semibold text-base padding">Hello!</p>
+                    <div>
+                        <span class="font-extrabold sm:text-6xl text-4xl text-white padding">I'm</span>
+                        <span class="my-name font-extrabold sm:text-6xl text-4xl padding">Prabhleen</span>
+                        <h1 class="my-name font-extrabold sm:text-6xl pb-8 text-4xl pt-2">Singh</h1>
+
+                    </div>
+                    <span class="text-anime font-bold text-white text-3xl bg-clip-padding" id="text-anime">
+                        Front-end Developer
+                    </span>
+                </div>
+                <div class="btn flex gap-3 hiddenn">
+                    <button class="btns btn-insta">MY INSTAGRAM</button>
+                    <button class="btns btn-lin">MY LINKEDIN</button>
+                </div>
+                
+                    <div class="sc-btns sm:flex sm:flex-row sm:justify-normal flex justify-center items-center gap-3 px-2 py-4">
+                        <div class="sm cursor-pointer ">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="sm cursor-pointer ">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+               
+            </div>
+            <div class="my-img">
+                <img src="components/images/aiWithoutBg.png" alt="">
+            </div>
+        </div>
+    </main>
+    <div id="about-page"></div>
+    <section class="about py-3 lg:px-14 px-10 flex section" id="about">
+        <div class="s1l  text-gray-400 w-full ">
+            <div class="info-card hiddenn flex flex-row">
+                <div class="info-card-img hiddenn sm:block hidden">
+                    <img src="components/images/p2.png" class="w-48" alt="">
+                </div>
+                <div class="info-det hiddenn font-normal text-base sm:pl-8 sm:pt-20 pt-4 pb-2">
+                    <h5 class="text-base font-normal text-gray-400 leading-10">Name: Prabhleen Singh</h5>
+                    <h5 class="text-base font-normal text-gray-400 leading-10">Job Role: Front-end Developer</h5>
+                    <h5 class="text-base font-normal text-gray-400 leading-10">Location: Punjab, India</h5>
+                </div>
+            </div>
+            <div class="skills flex flex-col ">
+                <h3 class="font-normal text-base text-gray-400 py-6 ">My Skills</h3>
+                <div class="skills-wrapper font-normal text-base text-gray-400 hiddenn">
+
+                    <div class="bar py-1.5">
+                        <div class="info py-1">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="bar py-1.5">
+                        <div class="info py-1">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="bar py-1.5">
+                        <div class="info py-1">
+                            <span>Javascript</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="javascript"></span>
+                        </div>
+                    </div>
+
+                    <div class="bar py-1.5">
+                        <div class="info py-1">
+                            <span>React Js</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="react-js"></span>
+                        </div>
+                    </div>
+
+                    <div class="bar py-1.5">
+                        <div class="info py-1">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="s1r relative w-full flex sm:flex-col flex-wrap">
+            <div>
+                <div class="about-design text-center sm:w-full flex justify-start ">
+                    <!-- <h1 class="text1 text-8xl text-gray-600 z-0  -mb-5 font-black ">About Me</h1> -->
+                    <h2 class="text2  font-bold lg:text-gray-600 text-white lg:text-6xl text-4xl hiddenn">About Me</h2>
+                </div>
+                <p class="font-normal text-base sm:leading-9 leading-7 hiddenn text-gray-400">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae alias quam minima modi facilis
+                    praesentium nobis quod quis corrupti, similique dolores possimus rem. Tempore nemo eligendi impedit
+                    vel
+                    architecto accusamus hic tempora nihil cumque blanditiis quas ipsum aut, deserunt maiores quaerat
+                    fugiat
+                    deleniti inventore explicabo?
+                </p>
+            </div>
+            <ul class="about-ul sm:flex sm:flex-col text-gray-400  font-normal text-base  py-6">
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Profile:
+                    </span>
+                    <span>
+                        Front-end Developer
+                    </span>
+                </li>
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Domain:
+                    </span>
+                    <span>
+                        Software Developer
+                    </span>
+                </li>
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Education:
+                    </span>
+                    <span>
+                        Bachelor of Computer Applications
+                    </span>
+                </li>
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Language:
+                    </span>
+                    <span>
+                        Punjabi, English, Hindi
+                    </span>
+                </li>
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Other Skills:
+                    </span>
+                    <span>
+                        Communication, Problem Solving, Team Worker, Drawing,
+                    </span>
+                </li>
+                <li class="sm:py-3 py-2">
+                    <span class="text-white font-semibold text-base  ">
+                        Interest:
+                    </span>
+                    <span>
+                        Playing Cricket, Travelling, Web-developement
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-resume sm:py-3 py-5 section" id="resume">
+        <div class="rsm-container flex flex-col justify-center items-center text-center gap-6 sm:flex-wrap">
+            <h1 class="sm:text-8xl text-3xl text-white sm:font-black sm:text-gray-600  hiddenn ">Resume</h1>
+            <p class="hiddenn text-base font-normal leading-7 w-full">Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit.
+                Optio facere in quae quas quod architecto perspiciatis, odit commodi aliquam. Tempore, repellendus
+                voluptate. Unde perspiciatis itaque officia consequatur adipisci debitis error eligendi inventore, quasi
+                excepturi architecto sint dignissimos tempora? Voluptatem ad illo ab, non fuga similique sunt laboriosam
+                deleniti sapiente eveniet?</p>
+        </div>
+    </section>
+
+    <section class="projects py-14 lg:px-14 px-4">
+        <h1 class="font-normal text-5xl leading-10 text-white text-center py-3">Projects</h1>
+        <div class="underline"></div>
+        <div class="cards hiddenn">
+            <div class="card w-full font-normal flex flex-col justify-start py-3 px-6 rounded-2xl">
+                <h1 class="font-black text-3xl text-yellow-500 py-2">Spotify Clone</h1>
+                <h3 class="text-white text-2xl leading-9 py-2">Music Web-App</h3>
+                <div class="pro-link font-normal text-base text-blue-400 pb-4 pt-2 tracking-widest">
+                    <a href="">
+                        PROJECT LINK
+                    </a>
+                </div>
+                <p class="text-gray-400 text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde eius
+                    quod provident consectetur laboriosam a itaque, id officia ullam porro aspernatur ipsa ipsam odio,
+                    iure quisquam vel soluta nulla sit expedita impedit maxime laudantium quae tenetur possimus.
+                    Doloribus quos doloremque omnis iure voluptatum? Dolor minima recusandae fuga debitis rerum. Eius?
+                </p>
+                <ul class="list-disc text-gray-400 text-base ml-10 py-3">
+                    <li class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, voluptatem!
+                    </li>
+                    <li class="py-2">Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </div>
+            <div class="card font-normal w-full flex flex-col justify-start py-3 px-6 rounded-2xl">
+                <h1 class="font-black text-3xl text-yellow-500 leading-10 py-2">Netflix Clone</h1>
+                <h3 class="text-white text-2xl leading-9 py-2 ">OTT Platform</h3>
+                <div class="pro-link font-normal text-base text-blue-400 pb-4 pt-2 tracking-widest">
+                    <a href="">
+                        PROJECT LINK
+                    </a>
+                </div>
+                <p class="text-gray-400 text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde eius
+                    quod provident consectetur laboriosam a itaque, id officia ullam porro aspernatur ipsa ipsam odio,
+                    iure quisquam vel soluta nulla sit expedita impedit maxime laudantium quae tenetur possimus.
+                    Doloribus quos doloremque omnis iure voluptatum? Dolor minima recusandae fuga debitis rerum. Eius?
+                </p>
+                <ul class="list-disc text-gray-400 text-base ml-10 py-3">
+                    <li class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, voluptatem!
+                    </li>
+                    <li class="py-2">Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects py-3 lg:px-14 px-5">
+        <h1 class="font-normal text-5xl leading-10 text-white text-center py-3">Education</h1>
+        <div class="underline"></div>
+        <div class="cards hiddenn">
+            <div class="card w-full font-normal flex flex-col justify-start py-3 px-6 rounded-2xl">
+                <h1 class="font-black text-3xl text-yellow-500 py-2 ">2022-2025 (Attending)</h1>
+                <h3 class="text-white text-2xl leading-9 py-2">Bachelor of Computer Applications</h3>
+                <div class="pro-link font-normal text-base text-gray-400 pb-4 pt-2 tracking-widest">
+                    D.A.V college, Abohar
+                </div>
+                <p class="text-gray-400 text-base">Marks: 85%
+                </p>
+
+            </div>
+            <div class="card font-normal w-full flex flex-col justify-start py-3 px-6 rounded-2xl">
+                <h1 class="font-black text-3xl text-yellow-500 leading-10 py-2">2021-2022</h1>
+                <h3 class="text-white text-2xl leading-9 py-2">sen. sec. Education</h3>
+                <div class="pro-link font-normal text-base text-gray-400 pb-4 pt-2 tracking-widest">
+                    <a href="">
+                        PSEB ( Humanities with Maths )
+                    </a>
+                </div>
+                <p class="text-gray-400 text-base">Marks: 94.5%
+                </p>
+
+            </div>
+        </div>
+        <div class="flex justify-center items-center pt-16 pb-2">
+            <button class="cv-btn">Dowload cv</button>
+        </div>
+    </section>
+    <section class="sec-gh">
+        <div class="git flex flex-col justify-center items-center gap-3">
+            <div class="git-flex flex gap-1 justify-center items-center">
+                <h1 class="text-white font-black text-5xl leading-10 hiddenn">Here's my</h1>
+                <button class="git-btn hiddenn">GITHUB</button>
+            </div>
+            <div class="text-white font-normal text-2xl text-center hiddenn px-7">
+                I love to code & create UI's of websites!
+            </div>
+        </div>
+
+    </section>
+    <section class="contacts py-3 lg:px-14 px-5" id="contact">
+        <div class="flex flex-col justify-center items-center py-14 gap-5 hiddenn">
+            <h1 class="con-me sm:font-black sm:text-7xl leading-10 sm:text-gray-600 text-white font-bold text-4xl">
+                Contact Me
+            </h1>
+            <span class="font-normal text-base text-gray-400 text-center">
+                Here are the details to contact with me.
+            </span>
+        </div>
+        <div class="contact sm:flex sm:flex-row sm:gap-0 gap-16 flex flex-wrap justify-center items-center hiddenn section">
+            <div class="c1">
+                <div class="circle hiddenn">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <span>
+                    ADDRESS
+                </span>
+                <span>
+                    Punjab, India
+                </span>
+            </div>
+            <div class="c1">
+                <div class="circle hiddenn">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <span>
+                    CONTACT NUMBER
+                </span>
+                <span>
+                    <a href="tel://9888544365">+91 98885-44365</a>
+                </span>
+            </div>
+            <div class="c1">
+                <div class="circle hiddenn">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <span>
+                    EMAIL ADDRESS
+                </span>
+                <span >
+                   <a href="mailto:workprabhsingh1@gmail.com">workprabhsingh1@gmail.com</a> 
+                </span>
+            </div>
+            <div class="c1">
+                <div class="circle hiddenn">
+                    <i class="fas fa-download"></i>
+                </div>
+                <span>
+                    DOWNLOAD RESUME
+                </span>
+                <span>
+                    <a href="">resume link</a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="query py-3 lg:px-14 px-5 hiddenn section" id="hire">
+        <h1 class="text-white font-normal text-3xl text-center pt-20 pb-12">Have any query?</h1>
+        <form method="POST" action="https://api.web3forms.com/submit" class="sm:flex sm:flex-col flex flex-wrap justify-center items-center font-normal text-gray-400 text-base gap-2">
+            <input type="hidden" name="access_key" value="35af958a-f64e-4b3e-bb04-c95b16ae48b8">
+            <div class="name flex flex-col justify-center item-center text-center gap-2">
+                <label for="name">
+                    Full Name
+                    <span class="imp text-red-500">*</span>
+                </label>
+                <input type="text" name="Name" id="name" value required="required" class="inp-box" placeholder="Enter your name">
+            </div>
+            <div class="mail-mob sm:flex sm:flex-row flex flex-wrap gap-2 justify-center items-center">
+                <div class=" flex flex-col justify-center item-center text-center gap-2">
+                    <label for="email">
+                        Email
+                        <span class="imp text-red-500">*</span>
+                    </label>
+                    <input type="text" id="email" name="Email-Address" value required="required" class="inp-box-sm" placeholder="Enter your email">
+                </div>
+                <div class="flex flex-col justify-center item-center text-center gap-2">
+                    <label for="mob">
+                        Mobile Number
+                    </label>
+                    <input type="text" name="Mobile-number" id="mob" class="inp-box-sm" placeholder="Enter your mobile number">
+                </div>
+            </div>
+            <div class="subject flex flex-col justify-center item-center text-center gap-2">
+                <label for="sub">
+                    Subject
+                    <span class="imp text-red-500">*</span>
+                </label>
+                <input type="text" name="Subject" id="sub" value required="required" class="inp-box" placeholder="Subject of your query">
+            </div>
+            <div class="flex flex-col justify-center item-center text-center gap-2">
+                <label for="msg">
+                    Message
+                    <span class="imp text-red-500">*</span>
+                </label>
+                <textarea name="message" id="msg" rows="4" required class="inp-box inp-box-big" placeholder="Type your message"></textarea>
+            </div><br>
+            <div class="py-4">
+                <button type="submit" class="send-btn flex justify-center items-center">send query</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+
+</html>
