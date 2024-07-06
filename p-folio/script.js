@@ -1,3 +1,15 @@
+// Loading screen code
+
+
+window.addEventListener('load', function () {
+    var loadingScreen = document.querySelector('.loading');
+    var content = document.querySelector('.content');
+
+    loadingScreen.style.display = 'none';
+    content.style.display = 'block';
+});
+
+
 // Slowly appearing content
 
 const observer = new IntersectionObserver((entries)=>{
@@ -19,10 +31,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".nav-opt");
 
     navLinks.forEach(link => {
-        link.addEventListener("click", function () {
+        link.addEventListener("click", function (event) {
+            event.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if(!this.classList.contains("active")){
             navLinks.forEach(nav => nav.classList.remove("active"));
             this.classList.add("active");
-           
+
+            targetSection.scrollIntoView({behavior: 'smooth'});
+        }
         });
     });
 });
