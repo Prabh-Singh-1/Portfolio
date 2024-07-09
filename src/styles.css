@@ -377,6 +377,51 @@
 .query{
     min-height: 55rem;
 }
+.projects {
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.card {
+    min-width: 50%;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.slider-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: -20px;
+}
+
+
 @media screen and (max-width:390px){
     .git-flex{
         flex-wrap: wrap;
@@ -434,8 +479,7 @@
     }
     .cards{
         display: flex;
-        flex-wrap: wrap;
-        padding: 0.25rem 1.25rem;
+        padding: 1.25rem;
         gap: 1.5rem;
     }
     .underline{
@@ -447,6 +491,12 @@
     .inp-box-sm{
         width: 18rem;
     }
+    .card {
+        min-width: 100%;
+    }
+    .right-btn {
+        right: 0px;
+    }    
 }
 @media screen and (max-width:1025px){
 
