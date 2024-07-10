@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 /* Loading screen CSS */
+.load-container{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
 .loading {
     text-align: center;
     --speed-of-animation: 0.9s;
@@ -248,6 +253,10 @@
     flex-direction: row;
     gap: 2.5rem;
     padding: 1rem 1.5rem;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
 }
 
 .cv-btn{
@@ -385,13 +394,6 @@
     display: flex;
     align-items: center;
     position: relative;
-}
-
-.cards {
-    display: flex;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    width: 100%;
 }
 
 .card {
