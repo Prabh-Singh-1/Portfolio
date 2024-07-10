@@ -277,7 +277,7 @@
     z-index: 0;
 }
 .git{
-    background-image: url("/components/bg_5.jpg");
+    background-image: url("components/bg_5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
