@@ -259,6 +259,7 @@
     width: 100%;
 }
 
+
 .cv-btn{
     border-radius: 40px;
     padding: 23px 36px;
@@ -277,7 +278,7 @@
     z-index: 0;
 }
 .git{
-    background-image: url("/components/bg_5.jpg");
+    background-image: url("/components/images/bg_5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -483,6 +484,12 @@
         display: flex;
         padding: 1.25rem;
         gap: 1.5rem;
+    }
+    .cards-edu{
+        display: flex;
+        padding: 1.25rem;
+        gap: 1.5rem;
+        flex-direction: column;
     }
     .underline{
         display: none;

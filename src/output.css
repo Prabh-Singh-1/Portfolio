@@ -582,6 +582,10 @@ video {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-2 {
   width: 0.5rem;
 }
